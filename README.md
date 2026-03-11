@@ -31,7 +31,7 @@ A web app that suggests random activities when you're bored, powered by the [Bor
 
 ```bash
 # Clone the repo
-git clone https://github.com/ashokml1729/api-integration.git
+git clone https://github.com/ashokml1729/I-m-Bored
 
 # Navigate into the project
 cd api-integration
