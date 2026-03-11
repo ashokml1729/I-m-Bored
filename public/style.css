@@ -10,6 +10,8 @@ html {
 }
 
 body {
+  background-color: black;
+  color: white;
   font-family: monospace;
   height: 100%;
 }
@@ -38,9 +40,10 @@ h1 {
   grid-column-gap: 10px;
 }
 .form-submit {
+  color: white;
   outline: none;
-  border: 1px solid rgb(232, 232, 232);
-  background-color: white;
+  border: 2px solid purple;
+  background: radial-gradient(purple, indigo);
   border-radius: 5px;
   cursor: pointer;
   font-family: monospace;
@@ -56,10 +59,11 @@ h1 {
   width: 100%;
 }
 .card-item {
+  color: white;
   width: 100%;
   padding: 5px 20px 20px;
-  border: 1px solid rgb(232, 232, 232);
-  background-color: white;
+  border: 1px solid green;
+  background-color: black;
   border-radius: 5px;
 }
 .card-info {
@@ -93,4 +97,10 @@ h1 {
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
+}
+
+.form-select {
+  color: white;
+  border: 2px solid purple;
+  background-color: black;
 }
